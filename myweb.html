@@ -13,19 +13,28 @@
             font-size: xx-large;
         }
 
+        #weblogo h1 {
+            padding: 10px;
+            margin: 5px;
+            color: black;
+        }
+
         .header {
             background-color: #113788;
-            padding: 80px;
+            padding: 100px;
+            margin: 0 10% 0 10%;
             text-align: center;
             color: aqua;
         }
 
         .navbar {
             overflow: hidden;
-            background-color: rgb(14, 13, 13)
+            background-color: #0e0d0d;
+            margin: 0 10% 0 10%;
         }
 
         .navbar a {
+            text-decoration: none;
             padding: 10px;
             float: left;
             display: block;
@@ -34,14 +43,31 @@
             font-size: 25px;
         }
 
+        .navbar a.right {
+            float: right;
+        }
+
         .navbar a:hover {
             background-color: #ddd;
             color: black;
         }
+
+        .body-content {
+            margin: 5% 10% 0 10%
+        }
+
+        .content .wedget {
+            background-color: white;
+        }
     </style>
 </head>
 
-<body>
+<body style="background-color: #dadada;">
+    <div id="weblogo">
+        <a href="myweb.html" style="text-decoration: none;">
+            <h1>AniWatchList</h1>
+        </a>
+    </div>
 
     <div class="header">
         <h1>Welcome To Your AniWatchList</h1>
@@ -52,7 +78,61 @@
         <a href=watching.html>Watching</a>
         <a href="#">Completed</a>
         <a href="#">Plan TO Watch</a>
+        <a href="#" class="right">Sign Up</a>
+        <a href="#" class="right">Login</a>
     </div>
+    <article class="body-content">
+        <div class="seasonal-content">
+            <h4 class='widget-header'>
+                Summer Releases
+            </h4>
+            <div class="widget-slider">
+                <div class="wiget-content" style="flex-wrap: wrap;">
+                    <ul>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article>
+        <div class="content">
+            <h4 class='wedget-header'>
+                Recommendations
+            </h4>
+        </div>
+    </article>
+
 </body>
 
 </html>
