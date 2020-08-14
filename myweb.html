@@ -52,17 +52,30 @@
             color: black;
         }
 
-        .body-content {
+        .seasonal-content {
+            margin: 5% 10% 0 10%;
+            height: 1px;
             border-style: solid;
-            border-width: 1px;
+            border: 1 0 0 1px;
         }
 
-        .body-content {
-            margin: 5% 10% 0 10%
+        .anime a {
+            text-decoration: none;
+            color: black
         }
 
-        .content .wedget {
-            background-color: white;
+        .widget-container {
+            margin: 2px;
+            overflow: hidden;
+        }
+
+        .anime img {
+            width: 215px;
+            alt: snow;
+        }
+
+        ul .anime {
+            display: inline;
         }
     </style>
 </head>
@@ -86,14 +99,17 @@
         <a href="#" class="right">Sign Up</a>
         <a href="#" class="right">Login</a>
     </div>
-    <article class="body-content">
-        <div class="seasonal-content">
-            <h4 class='widget-header'>
+    <div class="seasonal-content">
+        <div class="widget-header">
+            <h4>
                 Summer Releases
             </h4>
             <div class="widget-slider">
-                <div class="wiget-content" style="flex-wrap: wrap;">
+                <div class="widget-container">
                     <ul>
+                        <!-- <li class="anime">
+                            <a href="#"> <img src="lucy.png">Some Anime</a>
+                        </li> -->
                         <li class="anime">
                             <a href="#">Some Anime</a>
                         </li>
@@ -106,6 +122,44 @@
                         <li class="anime">
                             <a href="#">Some Anime</a>
                         </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                        <li class="anime">
+                            <a href="#">Some Anime</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <article class="seasonal-content">
+        <div class="widget-header">
+            <h4>
+                Recommendation
+            </h4>
+            <div class="widget-slider">
+                <div class="widget-container">
+                    <ul>
                         <li class="anime">
                             <a href="#">Some Anime</a>
                         </li>
@@ -127,14 +181,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </article>
-
-    <article>
-        <div class="content">
-            <h4 class='wedget-header'>
-                Recommendations
-            </h4>
         </div>
     </article>
 
